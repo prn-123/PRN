@@ -1,0 +1,247 @@
+
+1. NET Versions
+The .Net framework is a software development platform developed by Microsoft. The framework was meant to create applications, which would run on the Windows Platform.The .Net framework can be used to create both - Form-based and Web-based applications. Web services can also be developed using the .Net framework.
+Basic Architecture and Component Stack of .NET Framework
+ 
+1. CLR (Common Language Runtime) : It is a run-time environment which executes the code written in any .NET programming language. .Net framework provides the support for many languages like C#, F#, C++, Cobra, Jscript.Net, VB.Net, Oxygene etc.
+2. FCL (Framework Class Library) : A large number of class libraries are present in this framework which is known as FCL.
+3. Types of Applications : Mainly the applications which are built in .Net framework is divided into the following three categories :
+?	WinForms : Form – Based applications are considered under this category. In simple terms, we can say client based applications which read and writes the file system comes under this category.
+?	ASP .NET : Web-Based applications come under this category. ASP.Net is a framework for web and it provides the awesome integration of HTML, CSS and JavaScript which makes it useful to develop the web applications, websites and web services. Web services were added in .Net Framework 2.0 and considered as a part of ASP.NET web applications.
+?	ADO .NET : It includes the application which are developed to communicate with the database like MS SQL Server, Oracle etc. comes. It mainly consists of classes that can be used to connect, retrieve, insert and delete data.
+4. WPF (Windows Presentation Foundation) : Windows Presentation Foundation (WPF) is a graphical subsystem given by Microsoft which uses DirectX and is used in Windows-based applications for rendering UI (User Interface). WPF was initially released as part of .NET Framework 3.0 in 2006 and previously known as “Avalon”.
+5. WCF (Windows Communication Foundation) : It is a framework for building connected and service-oriented applications used to transmit the data as asynchronous from one service endpoint to another service point. It was previously known as the Indigo.
+6. WF (Windows Workflow Foundation) : It is a technology given by Microsoft which provides a platform for building workflows within .Net applications.
+7. Card Space : It is a Microsoft .NET Framework software client which is designed to let users provide their digital identity to online services in a secure, simple and trusted way.
+8. LINQ (Language Integrated Query) : It is introduced in .Net framework version 3.5. Basically, it is a query language used to make the query for data sources with VB or C# programming languages.
+9. Entity Framework : It is open–source ORM (Object Relational Mapping) based framework which comes into .Net Framework version 3.5. It enables the .Net developer to work with database using .Net objects. Before entity framework, .Net developers have performed a lot of things related database. Like to open a connection to the database, developers have to create a Data Set to fetch or submit the data to the database, convert data from the Data Set to .NET objects or vice-versa. It creates the difficulties for developers and also it was the error-prone process, then “Entity Framework” comes to automate all these database related activities for the application. So, Entity Framework allows the developers to work at a higher level of abstraction.
+10. Parallel LINQ (Language Integrated Query) : It comes in .Net Framework version 4.0 and also termed as PLINQ. It provides a concurrent query execution engine for LINQ. It executes the LINQ in parallel such that it tries to use as much processing power system on which it is executing.
+11. TPL (Task Parallel Library) : It is a set of public types and APIs. It allows the developers to be more productive by simplifying the process of adding concurrency and parallelism to .Net applications.
+12. .NET API For Store/UWP Apps : In 2012, Microsoft added some APIs for creating UWP(Universal Windows Platform) apps for Windows using C# or VB.
+13. Task-Based Asynchronous Model : It is model used to describe the asynchronous operations and tasks in .Net Framework.
+
+
+2. N Tier(Multi-Tier), 3-Tier, 2-Tier Architecture
+An N-Tier Application program is one that is distributed among three or more separate computers in a distributed network.
+Layers of n tier application – presentation, application, and database layers.
+ fig: N Tier Architecture Diagram.
+These three layers can be further subdivided into different sub-layers depending on the requirements.
+Types of N-Tier Architectures
+There are different types of N-Tier Architectures, like 3-tier Architecture, 2-Tier Architecture and 1- Tier Architecture.
+
+3-Tier Architecture:
+?	Presentation layer
+?	Business Logic layer
+?	Database layer
+ 
+Presentation layer  - 
+The presentation layer is used to display the data to the users.
+Business Access Layer -
+This is the function of the business layer which accepts the data from the application layer and passes it to the data layer. Business logic acts as an interface between Client layer and Data Access Layer. It makes communication faster and easier between the client and data layer.
+Data Access Layer -
+This is the data layer function, which receives the data from the business layer and performs the necessary operation into the database.
+
+2-Tier Architecture:
+It is like Client-Server architecture, where communication takes place between client and server.In this type of software architecture, the presentation layer or user interface layer runs on the client side while dataset layer gets executed and stored on server side.
+There is no Business logic layer or immediate layer in between client and server.
+
+ 
+
+3. Dot Net Vs. Java
+?	Java is developed by Sun Micro systems where as .Net is by Microsoft Corporation.
+?	Both of them are capable of producing high end applications.
+?	.Net is Partly about Drag n Drop.
+?	Java can be also drag & drop.
+?	It can be done using eclipse & net-beans editor.
+?	Java is a light weight language and can be run on almost all the OS. Light weight doesn't means that it have less capability than .Net rather it means that it do not trigger the computer with lots of load and Hard Disk space. Whereas .Net needs a very heavy framework to be installed which have higher Hardware requirements too compared to Java.
+?	The main reason why many programmers dominate .Net is because maximum things that you need to achieve manually in Java, are already provided by .Net framework automatically.
+?	The .Net garbage collector does not wipe away your objects as and when it likes, but will do the garbage collection in more efficient manner than Java. Basically in Java it has been up to the programmer to clean the memory manually whereas this task is moreover automated in .Net.
+?	Like .Net garbage collector runs at a certain interval and see is there is any memory occupied by any object whose parent is now finished processing (for eg. you closed an application), in this case the garbage collector automatically removes the reference of that object and free up the memory, whereas in Java you need to confirm it that all the objects are destroyed before application quits.
+?	On the other hand Java has a major advantage that it can be run on any OS which is able to install JVM. This is a major disadvantage with .Net.
+?	Also, for .Net a standard development IDE is available that is Microsoft Visual Studio. This tool comprises of all the things you require for your development purpose (Each and every thing you may think need of are at single place).
+?	Whereas, for Java no such standard tool is available. Although, many third party IDEs are available.
+?	.Net provide more user friendliness when designing the forms for example in .net we drag and drop controls into form which is not at all mind teasing process. developer can concentrate on the logic or other security issues.
+?	Java code for creating a simple control like button also takes a lot of programming for a developer.
+?	Java supports connected architecture and .Net supports disconnected Architecture.
+?	Since java is multi platform so its set of Framework Classes is limited to what is available on all platforms. While .Net has set of all the Classes available on Microsoft Platform.
+?	Java has support to open source platform while .Net has no direct support for Open source Platforms.
+?	Debugging is very effort-less in dotnet therefore, can fix the bugs quicker.
+?	LINQ is not available with JAVA, LINQ in DotNet enables a user to write queries directly instead of using stored procedures.
+?	The main disadvantage of Dot Net support is available only for the Entity Framework, which results in limited object-relational support of .NET. Managed code in this framework often runs slower than native code, while developers depend only on Microsoft for new features and enhancements.
+
+4. ASP .NET  Life Cycle 
+ASP .NET life cycle could be divided into two groups:
+?	Application Life Cycle
+?	Page Life Cycle
+ASP .NET Application Life Cycle
+application life cycle has the following stages: 
+?	User makes a request for accessing application resource, a page. Browser sends this request to the web server. 
+?	A unified pipeline receives the first request and the following events take place:    
+a.	An object of the class Hosting Environment is created to provide information regarding the resources. 
+b.	An object of the class Application Manager is created. 
+c.	Top level items in the application are compiled. 
+?	Response objects are created. The application objects such as Http Context, Http Request and Http Response are created and initialized.
+?	An instance of the Http Application object is created and assigned to the request. 
+?	The request is processed by the Http Application class. Different events are raised by this class for processing the request. 
+ASP .NET Page Life Cycle
+When a page is requested, it is loaded into the server memory, processed, and sent to the browser. Then it is unloaded from the memory. At each of these steps, methods and events are available, which could be overridden according to the need of the application. In other words, you can write your own code to override the default code.
+The page life cycle phases are:
+?	Initialization
+?	Initialization of the controls on the page.
+?	Restoration and maintenance of the state
+?	Execution of the event handler codes
+?	Page rendering
+Following are the different stages of an ASP .NET page:
+  
+Page request  -
+When ASP .NET gets a page request, it decides whether to parse and compile the page, or there would be a cached version of the page; accordingly the response is sent. 
+Starting of page life cycle  -
+ At this stage, the Request and Response objects are set. If the request is an old request or post back, the Is PostBack property of the page is set to true. The UI Culture property of the page is also set. 
+Page initialization  - 
+At this stage, the controls on the page are assigned unique ID by setting the Unique ID property and the themes are applied. For a new request, postback data is loaded and the control properties are restored to the view-state values. 
+Page load  - 
+At this stage, control properties are set using the view state and control state values. 
+Validation  - 
+Validate method of the validation control is called and on its successful execution, the Is Valid property of the page is set to true. 
+Postback event handling  -
+ If the request is a postback (old request), the related event handler is invoked. 
+Page rendering  - 
+At this stage, view state for the page and all controls are saved. The page calls the Render method for each control and the output of rendering is written to the Output Stream class of the Response property of page. 
+Unload  -
+ The rendered page is sent to the client and page properties, such as Response and Request, are unloaded and all cleanup done.
+
+
+5. JavaScript Vs jQuery
+Javascript is a programming language whereas jQuery is a framework to help make writing in javascript easier. It's particularly useful for simply traversing the DOM in an HTML page.
+The only difference is that jQuery has been optimized to perform many common scripting functions in fewer lines of codes. 
+JAVASCRIPT
+?	JavaScript has been used for server-side programming, to create desktop applications and for game development. Earlier when JavaScript was launched every web developer was not ready to use it just because many web browsers do not support JavaScript. JavaScript is basically a dynamic and interpreted programming language. 
+?	JavaScript becomes popular as it was able to display and handle dynamic web content, the content that changes and adapted easily by every web user. It is basically used for interface interaction and you can also know that whether a user is using a computer or mobile device if the web page is designed through JavaScript.
+?	Developers write their own code to handle multi-browser compatibility in JavaScript.
+?	Do not need to add any additional plugins as all browsers support JavaScript.
+JQUERY
+?	JQuery is a cross-platform JavaScript library and is a feature-rich library. Programmers can create common UI through this and can also handle browser compatibility issue easily. All code that is written in JQuery is converted to JavaScript internally. 
+?	JQuery is a concise, fast and simple JavaScript library that is used to handle dynamic data or content of a web page. It is getting popular day by day due to its simplicity and extensibility. Unlike other JavaScript libraries like MooTools, Angular, Knockout or TypeScript it is quite simple and features rich library.
+
+
+6. Internet Information Server(IIS)
+IIS (which stands for Internet Information Services or Internet Information Server) also known as Windows web server is available on most versions of Microsoft Windows operating systems. IIS is an extensible web server created by Microsoft for use with the Windows family. IIS has it's own ASP .NET Process Engine to handle the ASP .NET request. The way you configure an ASP .NET application depends on what version of IIS the application is running on.
+Image
+?	Internet Information Server (IIS) includes a set of programs for building and administering Web applications, search engines, and support for writing Web-based applications that access databases such as SQL Server.
+?	 Makes Computer to work as a Web server and provides the functionality to develop and deploy ASP .NET Web applications on the server. 
+?	Provides security for a particular Website for specific Users and Computer in order to protect it from unauthorized access.
+?	Client will make a request to the web server (IIS), the web server checks the request and will pass the request to the ASP .NET Process, the ASP .NET process engine will process the request and pass the response to the client via the web server. One of the major roles of IIS is handling each and every request. 
+
+ 
+Two main concepts:-
+1.	 Worker Process: Worker Process (w3wp.exe) runs the  application in IIS. This process is responsible to manage all the request and response that are coming from client system. All the  functionality runs under the scope of worker process. When a request comes to the server from a client worker process is responsible to generate the request and response. In a single word we can say worker process is the heart of  Web Application which runs on IIS.
+2.	 Application Pool: An application pool is a group of one or more URLs that are served by a worker process or set of worker processes. Application pools are used to separate sets of IIS worker processes that share the same configuration.
+
+ 
+7. Entity Framework
+Entity Framework is an open-source ORM framework for .NET applications supported by Microsoft. It enables developers to work with data using objects of domain specific classes without focusing on the underlying database tables and columns where this data is stored. 
+
+ fig: ORM
+?	Entity Framework was first released in 2008, Microsoft's primary means of interacting between .NET applications and relational databases.
+?	 Entity Framework is an Object Relational Mapper (ORM) which is a type of tool that simplifies mapping between objects in your software to the tables and columns of a relational database. 
+ 
+?	Entity Framework fits between the business entities (domain classes) and the database. It saves data stored in the properties of business entities and also retrieves data from the database and converts it to business entities objects automatically. 
+?	Entity Framework has a more granular mapping layer so you can customize mappings, for example, by mapping the single entity to multiple database tables or even multiple entities to a single table. 
+          
+?	Entity Framework is Microsoft's recommended data access technology for new applications.
+?	Microsoft recommends that you use Entity Framework over ADO.NET or LINQ to SQL for all new development. Entity Framework is where all of the forward moving investment is being made, which has been the case for a number of years already. 
+Data Providers
+?	These are source specific providers, which abstract the ADO.NET interfaces to connect to the database when programming against the conceptual schema.
+?	It translates the common SQL languages such as LINQ via command tree to native SQL expression and executes it against the specific DBMS system.
+Entity Client
+?	This layer exposes the entity layer to the upper layer. Entity client provides the ability for developers to work against entities in the form of rows and columns using entity SQL queries without the need to generate classes to represent conceptual schema. 
+?	Entity Client shows the entity framework layers, which are the core functionality. These layers are called as Entity Data Model.
+ 
+ 
+
+?	Storage Layer contains the entire database schema in XML format. 
+?	Entity Layer which is also an XML file defines the entities and relationships. 
+?	Mapping layer is an XML file that maps the entities and relationships defined at conceptual layer with actual relationships and tables defined at logical layer. 
+?	Metadata services which is also represented in Entity Client provides centralized API to access metadata stored Entity, Mapping and Storage layers.
+?	LINQ to Entities: LINQ-to-Entities (L2E) is a query language used to write queries against the   	object model. It returns entities, which are defined in the conceptual model. You can use your 	LINQ skills here.
+?	Entity SQL: Entity SQL is another query language (For EF 6 only) just like LINQ to Entities. 	However, it is a little more difficult than L2E and the developer will have to learn it separately.
+?	Object Service: Object service is a main entry point for accessing data from the database and returning it back. Object service is responsible for materialization, which is the process of converting data returned from an entity client data provider (next layer) to an entity object structure.
+?	Entity Client Data Provider: The main responsibility of this layer is to convert LINQ-to-	Entities or Entity SQL queries into a SQL query which is understood by the underlying 	database. It communicates with the ADO.Net data provider which in turn sends or retrieves data 	from the database.
+?	ADO.Net Data Provider: This layer communicates with the database using standard ADO.Net. 
+How Entity Framework Works?
+?	Entity Framework API (EF6 & EF Core) includes the ability to map domain (entity) classes to the database schema, translate & execute LINQ queries to SQL, track changes occurred on entities during their lifetime, and save changes to the database. 
+ 
+Types of Entities in Entity Framework 
+There are two types of Entities in Entity Framework: 
+ 1.	POCO Entities 
+ 2.	Dynamic Proxy Entities.
+1. POCO Entities (Plain Old CLR Object)
+?	A POCO entity is a class that doesn't depend on any framework-specific base class. It is like any other normal .NET CLR class, which is why it is called "Plain Old CLR Objects".
+?	POCO entities are supported in both EF 6 and EF Core.
+?	These POCO entities (also known as persistence-ignorant objects) support most of the same query, insert, update, and delete behaviors as entity types that are generated by the Entity Data Model. The following is an example of Student POCO entity.
+2. Dynamic Proxy Entities (POCO Proxy)
+?	Dynamic Proxy is a runtime proxy class which wraps POCO entity. Dynamic proxy entities allow lazy loading.
+?	Dynamic proxy entities are only supported in EF 6. EF Core 2.0 does not support them yet.
+?	A POCO entity should meet the following requirements to become a POCO proxy:
+ 1.	POCO class must be declared with public access.
+ 2.	POCO class must not be sealed (Not Inheritable in Visual Basic).
+ 3.	POCO class must not be abstract (Must Inherit in Visual Basic).
+ 4.	Each navigation property must be declared as public, virtual.
+ 5.	Each collection property must be ICollection<T>.
+
+Different Approaches of Entity Framework
+The Entity Framework provides three approaches to create an entity model and each one has their own pros and cons.
+?	Database First
+?	Model First
+?	Code First
+Database First :
+The Database First approach enables us to create an entity model from the existing database. This approach helps us to reduce the amount of code that we need to write.
+ 
+Advantages:
+?	This approach is very popular when we have an existing database
+?	The EDM wizard creates the entities and their relationships automatically
+?	Extensibility is possible using a partial class or T4 templates
+?	We need to write less code and put less effort into creating the entity model
+?	Easy update if any changes are made to the database
+Disadvantages:
+?	Very difficult to maintain a complex model
+?	Model customization is very difficult. In other words, if we don't have a foreign key in the database and we need an association in the conceptual layer then we must create it manually and it is very difficult to maintain when we update the model from the database.
+
+Model First :
+In asp.net Model First approach in entity framework is used to create Entities, relationships, and inheritance hierarchies directly on the design surface of EDMX and then it will generate database from it.
+ 
+Advantages:
+?	Visual designer to create a database schema.
+?	Model diagram can be easily updated when the database changes.
+?	Entity Framework generates the Code and database script.
+?	Extensibility is possible using a partial class.
+Disadvantages:
+?	When we change the model and generate SQL to sync the database then this will always result in data loss because the tables are dropped first.
+?	We don't have much control on entities and database.
+?	Requires a good knowledge of Entity Framework to update the model and database.
+
+Code First :
+The Code First approach enables us to create a model and their relation using classes and then create the database from these classes. It enables us to work with the Entity Framework in an object-oriented manner. Here we need not worry about the database structure.
+ 
+Advantages:
+?	There is full control of the model from the code. There is no EDMX/designer and no auto-generated code.
+?	It supports database migrations, so it is very easy to sync various databases.
+?	We have more customization options and more control.
+?	We can also use Code First to map our model to an existing database; to learn more click here.
+Disadvantages:
+?	It is very difficult to maintain a database compared to a visual design tool.
+?	Requires a good knowledge of C# and data annotation.
+
+
+Selecting Right Approach : 
+
+As per the  figure, if already have an existing application with domain classes, then you can use the code-first approach because you can create a database from your existing classes. If you have an existing database, then you can create an EDM from an existing database in the database-first approach. If you do not have an existing database or domain classes, and you prefer to design your DB model on the visual designer, then go for the Model-first approach.
+
+ 
+
+
+1. Dot net framework  ---- https://www.guru99.com/net-framework.html
+2.https://exceptionnotfound.net/dapper-vs-entity-framework-vs-ado-net-performance-benchmarking/
+3.Advantage of using dotnet framework https://www.invensis.net/blog/it/advantages-of-dot-net-framework-for-business-application-development/
+4.EF different approaches  https://www.c-sharpcorner.com/UploadFile/ff2f08/identifying-entity-framework-development-approaches/
+.                                                                                                                              .
