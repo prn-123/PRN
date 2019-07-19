@@ -1,0 +1,38 @@
+UserName = 4575AAG Password = 12345   
+
+Admin ---> User Name = adminmmclad Password = %admin%12345%
+
+http://localhost:50654/COMET/SAPSemiClassifiedCompose?sapOrderNumber=12791216&tccCode=JOB11000&colorCode=0005&
+boxIndicatorCode=&boxNumber=&boxTypeCode=&adSpec=2&sapUserName=PAUL&isOnline=F&publishDate=2019-07-03&designType=8ENG&isPrint=T
+
+The System.Web is made to be used in server-based apps and System.Net can be used for client based apps.
+Part 1)
+This question is really interesting ,I'm still thinking why there are two classes which looks pretty same ,My initial 
+thought was System.Web.HttpCookie inherits System.Net.Cookie but this isn't true both directly inherit from Object so 
+they are distinct classes ,but the properties matches a lot ,so this gives a hope for the solution of part 2.
+
+Part 2)
+I think its possible to convert one into another theoretically since both are just objects if you populate them the 
+right way it will work , here a little analysis when I compared the two classes.
+
+
+
+stringify & deserialize ---> cant pass data in json obj from js to cs in ajax call.. runtime template
+the viewmodel shud contains same properties as the keys in json obj and the properies shud be attributed as [jsonObject]
+
+
+
+Authe and auther depndncy ind
+
+if((Model.Matter.SearchParams!=null) && Model.Matter.SearchParams.Count()>0 )
+            {
+                var data = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(this.Model.Matter.SearchParams));
+                loadSearchParams(Model.Matter.TccDetails.ID,data);
+            }
+
+
+            if('@(Model.Matter.SearchParams!=null)'=="True" && @Model.Matter.SearchParams.Count()>0 )
+            {
+                var data = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(this.Model.Matter.SearchParams));
+                loadSearchParams('@Model.Matter.TccDetails.ID',data);
+            }
